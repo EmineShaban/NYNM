@@ -1,0 +1,25 @@
+  <section class="nynm">
+        <img class="mobile" src="./Ayra-NYNS-Index-Banner-m-image.webp" alt="">
+        <img class="desktop" src="./Ayra-NYNS-Index-Banner-d-image.webp" alt="">
+
+        <div class="nynm-description">
+            <div class="new-year">
+                <h2><span class="purpule">new</span> year <br> new <span class="purpule">skin</span></h2>
+                <div>
+                    <p class="up-to">up <br/> to</p>
+                    <p  class="purpule percent">-60%</p>
+                     
+                </div>
+            </div>
+            <div class="with-code">
+                <p class="with-code-span">
+                   with code new10 
+                </p>
+                <p>
+                    turn back time, naturally
+                </p>
+            </div>
+            <a class="btn" href="">shop now</a>
+            <p class="last">The clock is ticking... backwards</p>
+        </div>
+    </section>
