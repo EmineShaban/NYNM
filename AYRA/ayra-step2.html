@@ -1,0 +1,815 @@
+
+
+
+<!DOCTYPE html>
+<html lang="sk-SK">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ayra Synergy krém: Prémiové riešenie proti vráskam, ktoré efektívne znižuje vrásky až o 69% a viditeľne odstraňuje vekové škvrny.">
+    <meta name="keywords" content="ayrasynergy,ayrasynergy cream, ayra synergy, ayra synergy cream,krem na vrásky,kremy na vrasky,krém na vrasky,vrásky,vrások,vrásky pod očami,vrásky okolo očí">
+
+      <!-- share thumb -->
+	    <meta property="og:title" content="Ayra Synergy - Prémiový krém proti vráskam" />
+            <meta property="og:image" content="https://ayraderma.com/cdn/ayra/inc/assets-w-3.0/images/3.webp" />
+            <meta property="og:site_name" content="Ayra Synergy - Prémiový krém proti vráskam" />
+            <meta property="og:description" content="Ayra Synergy krém: Prémiové riešenie proti vráskam, ktoré efektívne znižuje vrásky až o 69% a viditeľne odstraňuje vekové škvrny." />
+
+    <link rel="shortcut icon" href="http://lesthe.com/cdn/ayra/inc/assets-global-1.0/images/favicon.png" type="image/png">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=ZCOOL+XiaoWei&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="http://lesthe.com/cdn/ayra/inc/assets-general/rework/css/reset.css">
+    <link rel="stylesheet" href="http://lesthe.com/cdn/ayra/inc/assets-general/rework/css/style_ts.css">
+
+    <title>Ayra Synergy - Prémiový krém proti vráskam</title>
+
+    
+
+</head>
+
+<body> 
+
+	<style>
+input.addonBox {
+   display: none;
+}
+
+.ayra-serum .pBox .old-price {
+   display: none;
+}
+
+/*/-------------- POPUP -------------------/*/
+#cart_message {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #b52d50;
+}
+
+#popUp {
+    background-color: rgba(45, 41, 41, 0.7);
+    color: #fff;
+    font-size: 14px;
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    width: 94%;
+    padding: 5px 2%;
+    margin: 0 3% 0 0;
+    z-index: 22;
+    font-family: open sans;
+}
+
+.info-text {
+    padding: 15px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: #692079;
+}
+
+.info-text.transition {
+    visibility: visible;
+    opacity: 1;
+    animation: hideInfoText 0s ease-in 5s forwards;
+}
+
+@keyframes hideInfoText {
+            to {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+.info-text h3 {
+            text-align: center;
+            margin: 0px 10px;
+            color: white;
+            font-weight: 400;
+            font-size: 14px;
+        }
+ 
+</style>
+
+    <div class="promo-bar">
+        <p>		<b>Pozor!</b> Vzhľadom na vysoký dopyt sme vašu objednávku rezervovali na nasledujúce
+           <span id="minutes">4</span>:<span id="seconds">40</span> <span>minúty</span>  </p>
+    </div>
+    <div class="products-main-grid container">
+
+        <div class="ayra-cream">
+
+            <img id="thumb" src="http://lesthe.com/cdn/ayra/inc/assets-general/rework/images/ayra1.webp" alt="" class="thumbnail">
+
+            <div class="options">
+                                <label for="q1">
+                    <div class="pBox" dir="http://lesthe.com/cdn/ayra/inc/assets-general/rework/images/ayra1.webp" data-product="2" data-optional="1"
+                        data-price='31.9' data-quantity='1' data-full-price='63.8' data-discount='31.9'
+                    data-product-name='Ayra Synergy Cream'
+                    data-cart-position='0' data-product-id='19'>
+                        <div class="pBox-content">
+                        <span class=" ml">1 x 50ml</span>
+
+                            <div class="pBox-info">
+                                <div class="prices">
+                                    <span class="old-price">63.8                                        €</span>
+                                    <span class="price">31.9                                        €</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+
+                                <label for="q2">
+                    <div class="pBox" dir="http://lesthe.com/cdn/ayra/inc/assets-general/rework/images/ayra2.webp" data-product="1" data-optional="1"
+                        data-price='47.85' data-quantity='2' data-full-price='95.7' data-discount='47.85'
+                    data-product-name='Ayra Synergy Cream x 2'
+                    data-cart-position='0' data-product-id='22'>
+                        <span class="best-badge">Najlepšia cena</span>
+
+                        <div class="pBox-content">
+                        <span class=" ml">2 x 50ml</span>
+                            <div class="pBox-info">
+                                <div class="prices">
+                                    <span class="old-price">95.7                                        €</span>
+                                    <span class="price">47.85                                        €</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+
+                                <label for="q3">
+
+                    <div class="pBox" dir="http://lesthe.com/cdn/ayra/inc/assets-general/rework/images/ayra3.webp" data-product="0" data-optional="1"
+                        data-price='63.8' data-quantity='3' data-full-price='127.6' data-discount='63.8'
+                    data-product-name='Ayra Synergy Cream x 3'
+                    data-cart-position='0' data-product-id='25'>
+                        <span class="best-badge">Najobľúbenejšie</span>
+                        <span class=" ml">3 x 50ml</span>
+
+                        <div class="pBox-content">
+                            <div class="pBox-info">
+                                <div class="prices">
+                                    <span class="old-price">127.6                                        €</span>
+                                    <span class="price">63.8                                        €</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+
+        <div class="better">
+            <h3>Pracujme lepšie spolu </h3>
+        </div>
+
+        <div class="ayra-serum">
+            <img src="http://lesthe.com/cdn/ayra/inc/assets-general/rework/images/ayra_step 2_serum-01.webp" alt="" class="thumbnail" id="thumb_serum">
+
+            <div class="options">
+
+                                <label for="addon_serum">
+                    <input type="checkbox" id="addon_serum" name="addon_serum" class="addonBox" data-cart-position=2
+                        data-cart-toggle=1 data-price='29.9' data-quantity='1' data-full-price='29.9' data-discount='0'
+                    data-product-name='Ayra Synergy Face Serum'
+                    data-cart-position='1' data-product-id='88' />
+
+                    <div class="pBox" dir="http://lesthe.com/cdn/ayra/inc/assets-general/rework/images/ayra_step 2_serum-01.webp">
+                        <span class=" ml">1 x 30ml</span>
+
+                        <div class="pBox-content">
+
+                            <div class="pBox-info">
+                                <div class="prices">
+                                    <span class="old-price">29.9                                        €</span>
+                                    <span class="price">29.9                                        €</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+
+                                <label for="addon_serum_2">
+                    <input type="checkbox" id="addon_serum_2" name="addon_serum_2" class="addonBox" data-cart-position=2
+                        data-cart-toggle=1 data-price='44.85' data-quantity='1' data-full-price='44.85' data-discount='0'
+                    data-product-name='Ayra Synergy Face Serum x 2'
+                    data-cart-position='1' data-product-id='347' />
+
+                    <div class="pBox" dir="http://lesthe.com/cdn/ayra/inc/assets-general/rework/images/ayra_step 2_serum-02.webp">
+                        <span class="best-badge">Najlepšia cena</span>
+                        <span class=" ml">2 x 30ml</span>
+
+                        <div class="pBox-content">
+
+                            <div class="pBox-info">
+                                <div class="prices">
+                                    <span class="old-price">44.85                                        €</span>
+                                    <span class="price">44.85                                        €</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+
+                                <label for="addon_serum_3">
+                    <input type="checkbox" id="addon_serum_3" name="addon_serum_3" class="addonBox" data-cart-position=2
+                        data-cart-toggle=1 data-price='59.8' data-quantity='1' data-full-price='59.8' data-discount='0'
+                    data-product-name='Ayra Synergy Face Serum x 3'
+                    data-cart-position='1' data-product-id='349' />
+
+                    <div class="pBox" dir="http://lesthe.com/cdn/ayra/inc/assets-general/rework/images/ayra_step 2_serum-03.webp">
+                        <span class="best-badge">Najobľúbenejšie</span>
+                        <span class=" ml">3 x 30ml</span>
+
+                        <div class="pBox-content">
+
+                            <div class="pBox-info">
+                                <div class="prices">
+                                    <span class="old-price">59.8                                        €</span>
+                                    <span class="price">59.8                                        €</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="details container">
+        <div class="cart-details">
+            <h2>Podrobnosti vášho košíka </h2>
+
+            <div class="summary-cart-bg">
+                <div class='fa-cart summary-cart'>
+
+                    <div class="" id="fa-cart-items">
+                        <div class="card card-body fa-cart-items"></div>
+                    </div>
+                    <table id="showProductSelect" class="summary-table prices-table">
+                        <tbody>
+                            <tr class="old-price">
+                                <td>Stará cena:</td>
+                                <td id="full_price"> <span class="symbol">
+                                        €</span></td>
+                            </tr>
+                            <tr class="discount">
+                                <td>Zľava</td>
+                                <td id="discount"><span
+                                        class="symbol">€</span>
+                                </td>
+                            </tr>
+                            <tr class="delivery">
+                                <td>Doprava</td>
+                                <td id="delivery">Zadarmo</td>
+
+                            </tr>
+
+                            <tr id="totalStep2">
+                                <td>Celkom:</td>
+                                <td class="total"> <span
+                                        class="symbol">€</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <form class="coupon-section">
+                        <div class="input-group">
+                            <input id='fa_coupon' class="form-control coupon" type='text' size=10
+                                value=""
+                                placeholder="Použite zľavový kód">
+                            <button class="btn coupon"
+                                onclick='FA_validateCoupon(event)'>Použiť</button>
+                            <script>
+                                $(document).ready(function () {
+                                    FA_validateCoupon(new Event('click'));
+                                });
+                            </script>
+                        </div>
+                        <span id='fa_coupon_status'></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="order-details">
+            <h2>Podrobnosti vašej objednávky </h2>
+
+            <div class="personal-info">
+                <form class="user-info" name="orderform" id="orderform"
+                    action="/wordpress/wp-admin/admin-post.php?action=faform_submit&fa_form_id=340"
+                    method="post" data-lang="sk">
+                    <input type="hidden" value="1" id="product_selection" name="product_selection" />
+                    <input type="hidden" value="AYRA Synergy" id="info_product"
+                        name="info_product">
+                    <input type="hidden" value="AYRS" name="info_sku">
+                    <input type='hidden' name='billing_currency' value='EUR'>
+
+                    <h3></h3>
+                    <div>
+                        <input class="input-field" id="billing_email"
+                            placeholder="Email" type="email" name="billing_email"
+                            value="" required="required" autocomplete="email" data-extra-validation="fa_live_check" /><i
+                            class="fa-regular fa-circle-xmark"></i><i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div>
+                        <input class="input-field field" id="billing_fname" type="text" name="billing_fname"
+                            placeholder="Meno & Priezvisko" required="required" autocomplete="name"
+                            data-extra-validation="fa_live_check" />
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </div>
+                    <div>
+                        <input class="input-field field" id="billing_city" type="text" name="billing_city"
+                            placeholder="Mesto" value="" required="required"
+                            autocomplete="locality" data-extra-validation="fa_live_check" />
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </div>
+                    <div>
+                        <input class="input-field field" id="billing_zip" type="text" name="billing_zip"
+                            placeholder="Psč" value="" required="required"
+                            autocomplete="postal-code" maxlength="20" data-extra-validation="fa_live_check" />
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </div>
+                    <div>
+                        <textarea class="input-field" id="billing_address" style="resize: none;"
+                            placeholder="Ulica číslo" type="text" name="billing_address"
+                            minlength="6" required="required" autocomplete="street-address"
+                            data-extra-validation="fa_live_check"></textarea><i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </div>
+                    <div>
+                        <input class="input-field" id="billing_phone" type="tel" name="billing_phone"
+                            placeholder="Telefón"
+                            value="+421" minlength="5" required="required"
+                            autocomplete="tel" data-extra-validation="fa_live_check" />
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </div>
+
+                    <script>
+                        function fa_live_check(el) {
+
+                            if (el.validity.valid !== true) {
+                                console.log("Field is invalid", el.closest("div"));
+                                el.classList.add("incorrect");
+                                el.classList.remove("correct");
+                                el.closest("div").classList.remove("correct-field");
+                                el.closest("div").classList.add("incorrect-field");
+                            } else {
+                                el.classList.remove("incorrect");
+                                el.classList.add("correct");
+                                el.closest("div").classList.add("correct-field");
+                            }
+                        }
+                    </script>
+
+                    <div class="payment-method">
+                        <h3>Vyberte si metódu platby</h3>
+                        <ul>
+                            	<li><input type="radio" name="billing_payment_method" id="cod" value="cod" checked="checked" /> 
+		<label for="cod">
+			<svg><use xlink:href="http://lesthe.com/cdn/img/icons.svg#cod"></use></svg> <span>Platba na dobierku</span>
+		</label>
+	</li>
+	<li><input type="radio" name="billing_payment_method" id="card" value="card" />
+		<label for="card">
+			<svg><use xlink:href="http://lesthe.com/cdn/img/icons.svg#card"></use></svg> <span>Platba kartou</span>
+		</label>
+	</li>
+	<li><input type="radio" name="billing_payment_method" id="paypal" value="paypal" /> 
+		<label for="paypal">
+			<svg><use xlink:href="http://lesthe.com/cdn/img/icons.svg#pp"></use></svg> <span>PayPal</span>
+		</label>
+	</li>
+	    <script> $("input:radio[name=billing_payment_method]:first").attr('checked', true);</script>                        </ul>
+                        <!-- END .payment-methods -->
+                    </div>
+                    <div class="button-container">
+			<p id="cart_message">Váš košík je prázdny</p>
+                        <button class="submit-button-form order-btn" type="submit"
+                            id="btnDisable">OBJEDNAŤ TERAZ</button>
+                        <span></span>
+                    </div>
+                </form>
+            </div>
+            <img class="pp-badges" src="http://lesthe.com/cdn/ayra/inc/assets-general/rework/images/pp-badges.jpg" alt="">
+
+        </div>
+    </div>
+
+
+<link rel="stylesheet" href="http://lesthe.com/cdn/plugins/payment-popup/css/style.css">
+<script type='text/javascript' src="http://lesthe.com/cdn/plugins/payment-popup/js/payment-override.js"></script>
+<script type='text/javascript'>
+    var paymentPopupSending = 'Spracovanie vašej platby.';
+    var paymentPopupConfirming = 'Potvrdenie vašej platby.';
+    var paymentPopupCancel = 'Zrušenie platby a začatie od začiatku.';
+</script>
+<div id="payment-overlay">
+	<div id="payment-popup">
+		<a id="payment-popup-close">&#10006;</a>
+		
+<!--
+		<h2>Payment securely handled by mollie.com</h2>
+		<hr />
+-->
+
+        <iframe src="https://hopeglobal.eu/cdn/plugins/payment-popup/collect-card.php" id='fa-iframe-collect' width='100%' height='100%'></iframe>            
+        <div id="fa-card-collect">
+<!--
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="http://lesthe.com/cdn/plugins/payment-popup/css/style.css">
+<script type='text/javascript' src="http://lesthe.com/cdn/plugins/payment-popup/js/payment.js"></script>
+<script src="https://js.mollie.com/v1/mollie.js"></script>
+
+		<div class="wrapper">
+    		<form method="post" class="form" id="mcForm">
+    			<div class="form-fields">
+                  <div class="row">
+                    <div class="form-group form-group--card-holder">
+                      <label class="label" for="card-holder">Zrušenie platby a začatie od začiatku.</label>
+                      <div id="card-holder"></div>
+                      <div
+                        id="card-holder-error"
+                        class="field-error"
+                        role="alert"
+                      ></div>
+                    </div>
+                  </div>
+        
+                  <div class="row">
+                    <div class="form-group form-group--card-number">
+                      <label class="label" for="card-number">Číslo karty</label>
+                      <div id="card-number"></div>
+                      <div
+                        id="card-number-error"
+                        class="field-error"
+                        role="alert"
+                      ></div>
+                    </div>
+                  </div>
+        
+                  <div class="row">
+                    <div class="form-group form-group--expiry-date">
+                      <label class="label" for="expiry-date">Dátum platnosti</label>
+                      <div id="expiry-date"></div>
+                      <div
+                        id="expiry-date-error"
+                        class="field-error"
+                        role="alert"
+                      ></div>
+                    </div>
+        
+                    <div class="form-group form-group--verification-code">
+                      <label class="label" for="verification-code">CVC</label>
+                      <div id="verification-code"></div>
+                      <div
+                        id="verification-code-error"
+                        class="field-error"
+                        role="alert"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+    
+    			
+    			<hr />
+    			<button type="submit" id="submit-button" class="submit-button pay">Zaplatiť</button>
+    			 <div id="form-error" class="field-error" role="alert"></div>
+    		</form>
+    	</div>
+    	
+    	<center>
+		<img src="https://blogsportivo.xyz/wordpress/hope-global/wp-content/uploads/sites/271/2023/07/secure-payments-logos.png" class="secure-payments-logos" alt="Secure payments by Mollie" style="width: 80%; height: auto; margin-top: 22px;" />
+		</center>
+
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/promise-polyfill/8.2.0/polyfill.min.js"
+      integrity="sha512-YK+bAjUuYdjPksbGQIIIsUn5hgYFsc+nXgx21Wwby9Mv+rJd8WZH2FRe1RdlTjFu1vxlGia9/RqmUMcZtX+BrA=="
+      crossorigin="anonymous"
+    ></script>
+-->
+	    </div>
+	    
+       
+    </div>
+</div>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js"></script>
+
+<script type="text/javascript">
+    fa_billing_currency = '€';
+    fa_free_delivery = 'Zadarmo';
+
+    jQuery(function ($) {
+        $('.ayra-cream .pBox').on('click', function () {
+            $('.ayra-cream .pBox').removeClass('pBoxActive');
+            $(this).addClass('pBoxActive');
+            $("#product_selection").val($(this).attr("data-product"));
+            FA_addToCart(this);
+
+        });
+
+    $('.ayra-serum .pBox').on('click', function () {
+            $('.ayra-serum .pBox').removeClass('pBoxActive');
+            $(this).addClass('pBoxActive');
+            $("#product_selection").val($(this).attr("data-product"));
+            FA_addToCart(this);
+
+        });
+
+        $('.addonBox').on('change',function(){
+            checkbox = $(this); 
+            if(checkbox.prop("checked") != false){
+		for(let i = 0; i<3; i++){
+	    	    FA_removeFromCart($(".addonBox")[i])
+		}
+
+       		FA_addToCart(this);   
+            }
+            else{
+		for(let i = 0; i<3; i++){
+		    $(".ayra-serum .pBox").removeClass("pBoxActive");
+		}
+                FA_removeFromCart(this);
+            }
+        });
+
+
+                    $('.ayra-cream .pBox').on('click', function () {
+                var imgpath = $(this).attr('dir');
+                $('#thumb').attr('src', imgpath);
+            })
+
+            $('.ayra-serum .pBox').on('click', function () {
+                var imgpath = $(this).attr('dir');
+                $('#thumb_serum').attr('src', imgpath);
+            })
+
+
+        //$(".pBox[data-product=1]").trigger("click");
+        //$(".addonBox").trigger("click");
+
+    });
+
+</script>
+
+<script type="text/javascript">
+var FA_product_deselected = 'Vyberte';
+var FA_product_selected = 'Vybraný';
+function setTemplateFields(e){
+	values = {
+    	template_regular_pr : $(".pBoxActive").data('full-price') + ' €',
+    	template_disc_pr: $(".pBoxActive").data('price') + ' €',
+    	template_quantity: $(".pBoxActive").data('quantity'),
+    	template_saved: $(".pBoxActive").data('discount') + ' €',
+    	info_disc_pr:  $(".pBoxActive").data('price'),
+    	info_quantity: $(".pBoxActive").data('quantity')
+	}
+    if (document.cookie && document.cookie != '') {
+        var split = document.cookie.split(';');
+        for (var i = 0; i < split.length; i++) {
+            var name_value = split[i].split("=");
+            name_value[0] = name_value[0].replace(/^ /, '');
+            if(name_value[0].indexOf('get_') == 0){
+                values[decodeURIComponent(name_value[0])] = decodeURIComponent(name_value[1]);
+            }
+        }
+    }
+	for(key in values){
+	    $("#orderform").append("<input type='hidden' name='"+key+"' value='"+values[key]+"'>");
+	}
+	return true;
+	}
+$("button[type=submit]").click(setTemplateFields);	
+
+</script>
+
+<script type="text/javascript">// Disable order button when the cart is 0
+    function updateSubmitButton() {
+        const totalElement = document.querySelector(".total");
+        const total = parseFloat(totalElement.innerText.trim()) || 0;
+        const submitButton = document.getElementById("btnDisable");
+	const message = document.getElementById("cart_message");
+
+
+        if (total === 0) {
+            submitButton.disabled = true;
+            submitButton.style.pointerEvents = "none";
+            submitButton.style.opacity = "0.5";
+	    message.style.display = "block"
+        } else {
+            submitButton.disabled = false;
+            submitButton.style.pointerEvents = "auto";
+            submitButton.style.opacity = "1";
+	    message.style.display = "none"
+
+        }
+    }
+
+    const totalElement = document.querySelector(".total");
+    const observer = new MutationObserver(() => {
+        updateSubmitButton();
+    });
+
+    observer.observe(totalElement, {
+        characterData: true,
+        childList: true,
+        subtree: true,
+    });
+
+    document.getElementById("btnDisable").addEventListener("click", function (event) {
+        if (this.disabled) {
+            event.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", updateSubmitButton);
+</script>
+
+
+
+
+
+<script id="json-data-datalayer" type="application/json">
+{
+    "event": "view_item_list",
+    "custom_event_name": "view_item_list",
+    "ecommerce": {
+        "custom_event_name": "view_item_list",
+        "item_list_name": "Order page products",
+        "item_list_id": "order_page_products",
+        "items": [
+            {
+                "id": "19",
+                "internal_id": "19",
+                "name": "Ayra Synergy Cream",
+                "sku": "AYRS",
+                "category": "7429",
+                "price": 31.899999999999999,
+                "stocklevel": null,
+                "variant": null,
+                "quantity": "1",
+                "currency": "EUR",
+                "item_id": "19",
+                "item_name": "Ayra Synergy Cream",
+                "item_brand": "Ayra",
+                "item_category": "7429",
+                "item_variant": null,
+                "google_business_vertical": "retail"
+            },
+            {
+                "id": "22",
+                "internal_id": "22",
+                "name": "Ayra Synergy Cream x 2",
+                "sku": "AYRS",
+                "category": "7429",
+                "price": 47.850000000000001,
+                "stocklevel": null,
+                "variant": null,
+                "quantity": "2",
+                "currency": "EUR",
+                "item_id": "22",
+                "item_name": "Ayra Synergy Cream x 2",
+                "item_brand": "Ayra",
+                "item_category": "7429",
+                "item_variant": null,
+                "google_business_vertical": "retail"
+            },
+            {
+                "id": "25",
+                "internal_id": "25",
+                "name": "Ayra Synergy Cream x 3",
+                "sku": "AYRS",
+                "category": "7429",
+                "price": 63.799999999999997,
+                "stocklevel": null,
+                "variant": null,
+                "quantity": "3",
+                "currency": "EUR",
+                "item_id": "25",
+                "item_name": "Ayra Synergy Cream x 3",
+                "item_brand": "Ayra",
+                "item_category": "7429",
+                "item_variant": null,
+                "google_business_vertical": "retail"
+            },
+            {
+                "id": "88",
+                "internal_id": "88",
+                "name": "Ayra Synergy Face Serum",
+                "sku": "AYSE",
+                "category": "7429",
+                "price": 29.899999999999999,
+                "stocklevel": null,
+                "variant": null,
+                "quantity": "1",
+                "currency": "EUR",
+                "item_id": "88",
+                "item_name": "Ayra Synergy Face Serum",
+                "item_brand": "Ayra",
+                "item_category": "7429",
+                "item_variant": null,
+                "google_business_vertical": "retail"
+            },
+            {
+                "id": "347",
+                "internal_id": "347",
+                "name": "Ayra Synergy Face Serum x 2",
+                "sku": "AYSE*2",
+                "category": null,
+                "price": 44.850000000000001,
+                "stocklevel": null,
+                "variant": null,
+                "quantity": "1",
+                "currency": "EUR",
+                "item_id": "347",
+                "item_name": "Ayra Synergy Face Serum x 2",
+                "item_brand": "Ayra",
+                "item_category": null,
+                "item_variant": null,
+                "google_business_vertical": "retail"
+            },
+            {
+                "id": "349",
+                "internal_id": "349",
+                "name": "Ayra Synergy Face Serum x 3",
+                "sku": "AYSE*3",
+                "category": null,
+                "price": 59.799999999999997,
+                "stocklevel": null,
+                "variant": null,
+                "quantity": "1",
+                "currency": "EUR",
+                "item_id": "349",
+                "item_name": "Ayra Synergy Face Serum x 3",
+                "item_brand": "Ayra",
+                "item_category": null,
+                "item_variant": null,
+                "google_business_vertical": "retail"
+            }
+        ]
+    }
+}
+</script>
+
+<script>
+window.dataLayer = window.dataLayer || [];
+
+try{
+  jsonData = JSON.parse(document.getElementById('json-data-datalayer').textContent);
+  console.log("dataLayer variable is:",jsonData);
+  if(Object.keys(jsonData).length > 0){
+    console.log("Pushing dataLayer");
+    window.dataLayer.push(jsonData);  
+  }
+}
+catch(e){
+  console.log("Error parsing dataLayer JSON data",e);
+}
+</script><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NCFL8TP5');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCFL8TP5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager () -->
+
+<script src="http://lesthe.com/cdn/ayra/inc/assets-general/rework/js/timer.js"></script>
+<script type="text/javascript" src="http://lesthe.com/cdn/js/form-validator.js"></script>
+<script src='/cdn/js/fa_events-ayra.js'></script>
+<script> fa_get_data('PageViewOrder');</script>
+
+</body>
+
+</html>
+<!-- BEGIN UPDATED FILE 24112 -->

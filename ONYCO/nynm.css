@@ -1,0 +1,143 @@
+.desktop {
+    display: none;
+}
+
+.mobile {
+    display: block;
+}
+
+.nynm {
+    position: relative;
+}
+
+.nynm-description {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.nynm-description h2{
+    color: #009ded;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    /* margin-top: 25px; */
+    margin-left: 10px;
+}
+
+.with-code div{
+    display: flex;
+    flex-direction: row;
+
+}
+.with-code{
+    margin-left: 10px;
+
+}
+.with-code div p{
+    color: #009ded;
+
+}
+
+.percent{
+    font-size: 45px;
+    margin-left: -15px;
+}
+
+.up-to {
+    margin-top: 10px;
+    margin-right: -10px;
+    font-size: 10px;
+}
+
+.with-code-span{
+    background-color: #009ded;
+    color: white;
+    width: fit-content;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.nynm-products{
+    width: 60%;
+}
+
+.last{
+    background-color: #009ded;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: -2px;
+    z-index: 2;
+    position: relative;
+    padding: 5px 0;
+
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    background-color: #ff6700;
+    width: fit-content;
+    color: white;
+    margin: 15px auto;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 65px;
+
+}
+
+
+
+@media only screen and (min-width: 500px) {
+
+    .nynm-description h2 { 
+        font-size: 22px;
+    }
+    .percent {
+        font-size: 60px;
+    }
+    .up-to {
+        margin-top: 12px;
+        margin-right: -19px;
+        font-size: 14px;
+    }
+    .with-code-span { 
+        font-size: 18px;
+    }
+    .nynm-products {
+        width: 70%;
+    }
+    .last { 
+        font-size: 17px;
+        margin-top: -3px;
+
+    }
+    .btn{
+        font-size: 18px;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .desktop {
+        display: block;
+    }
+    
+    .mobile {
+        display: none;
+    }
+    
+.nynm-products{
+    width: 15%;
+}
+
+}
