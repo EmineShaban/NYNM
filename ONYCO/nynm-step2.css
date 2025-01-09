@@ -1,0 +1,202 @@
+ .nynm {
+     position: relative;
+ }
+
+ .nynm-description {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 100%;
+ }
+
+
+
+
+ .with-code div p {
+     color: #009ded;
+
+ }
+
+ .percent {
+     font-size: 38px;
+     margin-left: -15px;
+ }
+
+ .up-to {
+     margin-top: -17px;
+     margin-right: -8px;
+     font-size: 10px;
+ }
+
+ .with-code {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-left: 15px;
+     margin-top: 5px;
+
+ }
+
+ .with-code p {
+     color: #009ded;
+ }
+
+ .with-code .with-code-span {
+     background-color: #009ded;
+     color: white;
+     width: fit-content;
+     padding: 4px 6px;
+     text-transform: uppercase;
+     font-size: 10px;
+     height: fit-content;
+     margin-left: 5px;
+ }
+
+ .nynm-products {
+     width: 45%;
+     margin: auto;
+     display: block;
+     margin-left: 15%;
+ }
+
+ .last {
+     background-color: #009ded;
+     color: white;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 12px;
+     margin-top: -2px;
+     z-index: 2;
+     position: relative;
+     padding: 5px 0;
+
+ }
+
+
+
+
+
+ @media only screen and (min-width: 500px) {
+
+
+     .percent {
+         font-size: 60px;
+     }
+
+     .up-to {
+         margin-top: -30px;
+         margin-right: -19px;
+         font-size: 14px;
+     }
+
+     .with-code .with-code-span {
+         font-size: 18px;
+     }
+
+     .nynm-products {
+         width: 50%;
+     }
+
+     .last {
+         font-size: 17px;
+         margin-top: -3px;
+
+     }
+
+     .with-code {
+         margin-top: 10px;
+     }
+ }
+
+
+ @media only screen and (min-width: 768px) {
+
+     .nynm-description {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         height: 100%;
+     }
+
+     .nynm-products {
+         width: 50%;
+     }
+
+     .percent {
+         font-size: 35px;
+     }
+
+     .up-to {
+         margin-top: -18px;
+         margin-right: -4px;
+         font-size: 8px;
+     }
+
+
+     .with-code-span {
+         font-size: 15px;
+     }
+
+     .with-code .with-code-span {
+         font-size: 14px;
+     }
+
+     .last {
+         font-size: 14px;
+     }
+
+
+     .nynm {
+         margin-bottom: 30px;
+     }
+ }
+
+
+ @media only screen and (min-width: 994px) {
+     .last {
+         font-size: 16px;
+     }
+
+     .up-to {
+         margin-top: -16px;
+         margin-right: -5px;
+         font-size: 9px;
+     }
+
+ }
+
+ @media only screen and (min-width: 1200px) {
+
+     .percent {
+         font-size: 50px;
+     }
+
+     .with-code-span {
+         font-size: 18px;
+     }
+
+     .last {
+         font-size: 18px;
+     }
+
+     .nynm-products {
+         width: 45%;
+     }
+
+     .up-to {
+         margin-top: -28px;
+         margin-right: -13px;
+         font-size: 14px;
+     }
+
+
+ }
+
+ @media only screen and (min-width: 1400px) {
+     .nynm-legs {
+
+         margin-top: 110px;
+     }
+
+ }

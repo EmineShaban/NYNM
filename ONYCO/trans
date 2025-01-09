@@ -1,0 +1,56 @@
+<section class="nynm">
+        <img class="desktop" src="/cdn/onycostop/assets_v.4.0/nynm/img/Step 2_Onyco_New Year-03_desktop.webp" alt="">
+        <img class="mobile" src="/cdn/onycostop/assets_v.4.0/nynm/img/Index_Onyco_New Year-03_mobile.webp" alt="">
+
+        <div class="nynm-description">
+            <div class="nynm-description-div">
+                <h2><?php echo $LANG['professional_care'] ?></h2>
+                <div class="with-code">
+                    <div>
+                        <p class="up-to"><?php echo $LANG['up_to'] ?></p>
+                        <p class="percent"><b>-60% <?php echo $LANG['off'] ?></b></p>
+                    </div>
+                    <p class="with-code-span">
+                        <?php echo $LANG['with_code'] ?> <b>new10</b>
+                    </p>
+                </div>
+                <img class="nynm-products mobile" src="/cdn/onycostop/assets_v.4.0/nynm/img/Index_Onyco_New Year-04_mobile.webp" alt="">
+                <img class="nynm-products desktop" src="/cdn/onycostop/assets_v.4.0/nynm/img/Index_Onyco_New Year-06_desktop.webp" alt="">
+                <p class="last"><?php echo $LANG['nynm_last'] ?></p>
+                <a class="btn" href="<?php echo $LANG['link_to_order_page'] ?>"><?php echo $LANG['order_now'] ?></a>
+            </div>
+            <img class="nynm-legs desktop" src="/cdn/onycostop/assets_v.4.0/nynm/img/Step 2_Onyco_New Year-02_desktop.webp" alt="">
+        </div>
+    </section>
+
+
+
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>professional care</b> for your feet
+HTML;
+$LANG['up_to'] = "up to";
+$LANG['off'] = "OFF";
+$LANG['with_code'] = "with code: ";
+$LANG['nynm_last'] = <<<HTML
+<b>start the new year </b> with fresh, fungus-free feet! 
+HTML;
+
+
+
+
+
+//step2 
+
+<div class="nynm">
+            <img src="./img/Step 2_Onyco_New Year-05_desktop.webp" alt="">
+            <div class="nynm-description">
+                <div class="with-code">
+                    <p class="up-to"><?php echo $LANG['up_to'] ?></p>
+                    <p class="percent"><b>-60% <?php echo $LANG['off'] ?></b></p>
+                    <p class="with-code-span"><?php echo $LANG['with_code'] ?><b>new10</b></p>
+                </div>
+                <img class="nynm-products desktop" src="./img/Index_Onyco_New Year-06_desktop.webp" alt="">
+                <p class="last"><?php echo $LANG['nynm_last'] ?></p>
+            </div>
+        </div>

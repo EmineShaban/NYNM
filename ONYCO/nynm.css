@@ -18,7 +18,7 @@
     width: 100%;
 }
 
-.nynm-description h2{
+.nynm-description h2 {
     color: #009ded;
     text-transform: uppercase;
     font-weight: 400;
@@ -27,21 +27,23 @@
     margin-left: 10px;
 }
 
-.with-code div{
+.with-code div {
     display: flex;
     flex-direction: row;
 
 }
-.with-code{
+
+.with-code {
     margin-left: 10px;
 
 }
-.with-code div p{
+
+.with-code div p {
     color: #009ded;
 
 }
 
-.percent{
+.percent {
     font-size: 45px;
     margin-left: -15px;
 }
@@ -52,7 +54,7 @@
     font-size: 10px;
 }
 
-.with-code-span{
+.with-code-span {
     background-color: #009ded;
     color: white;
     width: fit-content;
@@ -61,11 +63,11 @@
     font-size: 12px;
 }
 
-.nynm-products{
+.nynm-products {
     width: 60%;
 }
 
-.last{
+.last {
     background-color: #009ded;
     color: white;
     text-align: center;
@@ -78,7 +80,7 @@
 
 }
 
-.btn{
+.btn {
     display: block;
     margin: auto;
     background-color: #ff6700;
@@ -96,29 +98,35 @@
 
 @media only screen and (min-width: 500px) {
 
-    .nynm-description h2 { 
+    .nynm-description h2 {
         font-size: 22px;
     }
+
     .percent {
         font-size: 60px;
     }
+
     .up-to {
         margin-top: 12px;
         margin-right: -19px;
         font-size: 14px;
     }
-    .with-code-span { 
+
+    .with-code-span {
         font-size: 18px;
     }
+
     .nynm-products {
         width: 70%;
     }
-    .last { 
+
+    .last {
         font-size: 17px;
         margin-top: -3px;
 
     }
-    .btn{
+
+    .btn {
         font-size: 18px;
     }
 
@@ -131,13 +139,178 @@
     .desktop {
         display: block;
     }
-    
+
     .mobile {
         display: none;
     }
-    
-.nynm-products{
-    width: 15%;
-}
+ 
+    .last {
+        height: fit-content;
+        width: 113%;
+        z-index: -1;
+    }
+
+    .nynm-description {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .nynm-legs {
+        width: 35%;
+        margin-top: 92px;
+
+    }
+
+    .nynm-description-div{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .with-code {
+        text-align: center;
+        margin: auto;
+    }
+    .nynm-description h2 {
+        font-size: 26px;
+    }
+    .with-code{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 15px;
+    }
+
+
+    .nynm-products {
+        width: 45%;
+        margin: auto;
+        z-index: -2;
+
+    }
+
+    .percent {
+        font-size: 50px;
+    }
+
+    .up-to {
+        margin-top: 8px;
+        margin-right: -14px;
+        font-size: 12px;
+    }
+    .with-code-span {
+        font-size: 15px;
+    }
+    .last {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 16px;
+        margin: 8px auto;
+        
+        margin-bottom: 20px;
+    }
+
+
+    .nynm-description {
+        position: absolute;
+        top: 50%;
+    }
+
+
+
 
 }
+
+
+@media only screen and (min-width: 994px) {
+    .nynm-description-div { 
+        margin-right: -70px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .nynm-description h2 {
+        font-size: 35px;
+    }
+
+    .percent {
+        font-size: 65px;
+    }
+    .up-to {
+        margin-top: 11px;
+        margin-right: -21px;
+        font-size: 14px;
+    }
+    .with-code-span {
+        font-size: 18px;
+    }
+    .last {
+        font-size: 18px; 
+        margin-left: -60px;
+    }
+
+    .btn {
+        font-size: 20px;
+        margin: 20px auto;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+}
+@media only screen and (min-width: 1400px) {
+    .nynm-legs {
+
+    margin-top: 110px;
+    }
+
+
+
+
+
+
+
+}
+@media only screen and (min-width: 1800px) {
+    .nynm-description h2 {
+        font-size: 45px;
+    }
+    .percent {
+        font-size: 80px;
+    }
+    .with-code-span {
+        font-size: 20px;
+    }
+   
+
+    .last {
+        font-size: 22px;
+    }
+    .btn {
+        font-size: 22px;
+        padding: 10px 20px;
+    }
+
+    .nynm-legs {
+        width: 28%;
+        margin-top: 270px;
+    }
+
+
+
+}
+
+
+
