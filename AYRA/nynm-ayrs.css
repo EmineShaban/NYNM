@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@font-face {
+    font-family: 'SFProText-Black';
+    src: url('./fonts/SFProText-Black.woff2') format('woff2'),
+        url('./fonts/SFProText-Black.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('./fonts/SFProText-BlackItalic.woff2') format('woff2'),
+        url('./fonts/SFProText-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('./fonts/SFProText-BoldItalic.woff2') format('woff2'),
+        url('./fonts/SFProText-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText-Bold';
+    src: url('./fonts/SFProText-Bold.woff2') format('woff2'),
+        url('./fonts/SFProText-Bold.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'SFProText-Heavy';
+    src: url('./fonts/SFProText-Heavy.woff2') format('woff2'),
+        url('./fonts/SFProText-Heavy.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('./fonts/SFProText-HeavyItalic.woff2') format('woff2'),
+        url('./fonts/SFProText-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText-LightItalic';
+    src: url('./fonts/SFProText-LightItalic.woff2') format('woff2'),
+        url('./fonts/SFProText-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText-Light';
+    src: url('./fonts/SFProText-Light.woff2') format('woff2'),
+        url('./fonts/SFProText-Light.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'SFProText-Medium';
+    src: url('./fonts/SFProText-Medium.woff2') format('woff2'),
+        url('./fonts/SFProText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('./fonts/SFProText-MediumItalic.woff2') format('woff2'),
+        url('./fonts/SFProText-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('./fonts/SFProText-RegularItalic.woff2') format('woff2'),
+        url('./fonts/SFProText-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText-Regular';
+    src: url('./fonts/SFProText-Regular.woff2') format('woff2'),
+        url('./fonts/SFProText-Regular.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('./fonts/SFProText-ThinItalic.woff2') format('woff2'),
+        url('./fonts/SFProText-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText-Thin';
+    src: url('./fonts/SFProText-Thin.woff2') format('woff2'),
+        url('./fonts/SFProText-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText-Ultralight';
+    src: url('./fonts/SFProText-Ultralight.woff2') format('woff2'),
+        url('./fonts/SFProText-Ultralight.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('./fonts/SFProText-UltralightItalic.woff2') format('woff2'),
+        url('./fonts/SFProText-UltralightItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
+.nynm {
+    font-family: 'SFProText-Regular';
+    position: relative;
+}
+
+.mobile {
+    display: block;
+}
+
+.desktop {
+    display: none;
+    z-index: 2;
+}
+
+.nynm {
+    background-color: white;
+    color: black;
+}
+
+.nynm-description {
+    /* background-color: white; */
+}
+
+.nynm-description h2 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 35px;
+    font-family: 'SFProText-Heavy';
+    font-weight: 900;
+    text-align: left;
+    line-height: 1;
+}
+
+.purpule {
+    color: #9747ff;
+
+}
+
+.new-year {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    text-align: center;
+}
+
+
+.new-year div {
+    display: flex;
+    flex-direction: row;
+}
+
+.percent {
+    font-size: 65px;
+    letter-spacing: 1px;
+    margin: auto;
+    font-family: 'SFProText-Regular';
+    /* font-family: 'SFProText-Medium'; */
+    /* font-family: 'SFProText-Bold'; */
+    font-weight: 500;
+    font-family: "Bebas Neue", serif;
+
+}
+
+.up-to {
+    margin-right: -15px;
+    margin-top: 15px;
+    line-height: 0.8;
+    text-align: center;
+    font-size: 12px;
+}
+
+.with-code {
+    text-transform: uppercase;
+    border: #9747ff 2px solid;
+    font-size: 12px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 8px 0;
+}
+
+.with-code-span {
+    background-color: #9747ff;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    letter-spacing: 1px;
+
+}
+
+.with-code p:last-child {
+    padding: 0 10px;
+}
+
+.btn {
+    margin: auto;
+    display: block;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 4px 22px;
+    border-radius: 7px;
+    font-size: 22px;
+}
+
+.last {
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    font-family: 'SFProText-Medium';
+
+}
+
+
+
+@media only screen and (min-width: 500px) {
+
+    .nynm-description h2 {
+        font-size: 45px;
+    }
+
+    .percent {
+        font-size: 100px;
+    }
+
+    .up-to {
+        margin-right: -23px;
+        margin-top: 23px;
+        line-height: 1;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .with-code {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        padding-right: 10px;
+    }
+
+    .new-year {
+        column-gap: 20px;
+    }
+
+    .btn {
+        font-size: 26px;
+    }
+
+    .last {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .nynm {
+        /* display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+    }
+
+    .new-year {
+        display: block;
+
+        margin: auto;
+        text-align: center;
+    }
+
+    .nynm-description h2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .percent {
+        margin: unset;
+    }
+
+    .new-year div {
+        justify-content: center;
+        margin-top: -10px;
+    }
+
+    .with-code {
+        font-size: 14px;
+        margin-top: -12px;
+    }
+
+    .nynm-description h2 {
+        font-size: 35px;
+    }
+
+    .percent {
+        font-size: 70px;
+    }
+
+    .up-to {
+        margin-right: -17px;
+        margin-top: 12px;
+        line-height: 1;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .btn {
+        font-size: 22px;
+        margin: 0 auto;
+        margin-top: -5px;
+    }
+
+    .last {
+        padding: 10px 0;
+        font-size: 14px;
+
+    }
+
+    /* .with-code-span{
+        background:linear-gradient(150deg, transparent 15px, #9747ff 0);
+        
+    } */
+    .with-code-span {
+        padding-left: 25px;
+        margin-left: -40px;
+        
+    }
+    .with-code {
+        border: none;
+    }
+    .with-code p:last-child{
+        border: #9747ff 1px solid;
+        border-left: 0;
+        padding: 4px 10px;
+        padding-left: 18px;
+        margin-left: -15px;
+        border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    }
+}
+
+
+
+@media only screen and (min-width: 994px) {
+
+.nynm-description{
+    width: 70%;
+}
+.with-code {
+    font-size: 13px;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .nynm-description{
+        margin-left: -15px;
+    }
+    .nynm-description h2 {
+        font-size: 50px;
+    }
+
+    .percent {
+        font-size: 100px;
+    }
+
+    .up-to {
+        margin-right: -23px;
+        margin-top: 23px;
+        line-height: 1;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .with-code {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 26px;
+    }
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1400px) {
+    .nynm-description h2 {
+        font-size: 70px;
+    }
+    .percent {
+        font-size: 120px;
+    }
+    .up-to {
+        margin-right: -25px;
+        margin-top: 30px; 
+    }
+    .with-code {
+        font-size: 18px;
+    }
+    .with-code-span {
+        padding-left: 45px;
+        margin-left: -75px;
+    }
+    .btn {
+        font-size: 28px;
+        margin-top: 25px;
+    }
+
+    .last { 
+        font-size: 16px;
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1800px) {
+
+    .nynm-description {
+        margin-left: -30px;
+    }
+    .nynm-description {
+        width: 58%;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+
+    .nynm-description {
+        margin-left: -30px;
+    }
+   
+}
+
+@media only screen and (min-width: 2200px) {
+
+    .nynm-description {
+        width: 50%;
+    }
+    .nynm-description {
+        margin-left: -50px;
+    }
+
+    .nynm-description h2 {
+        font-size: 90px;
+    }
+    .percent {
+        font-size: 150px;
+    }
+    .up-to {
+        margin-right: -30px;
+        margin-top: 37px;
+        font-size: 20px;
+    }
+    .with-code {
+        font-size: 22px;
+    }
+    .with-code-span {
+        padding-left: 45px;
+        margin-left: -75px;
+    }
+    .btn {
+        font-size: 35px;
+        margin-top: 25px;
+    }
+
+    .last { 
+        font-size: 18px;
+    }
+
+}
