@@ -29,54 +29,44 @@
 }
 
 .nynm {
-    position: relative;
-    margin-top: 65px;
+    position: relative; 
 }
 
 .nynm-description {
     position: absolute;
-    top: 50%;
-    left: 48%;
+    top: 48%;
+    left: 30%;
     transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column; 
     /* align-items: center; */
     height: 100%;
-    width: 90%;
+    width: 50%;
     font-family: 'SFProText-Regular';
 }
 
 .nynm-description h2 {
     color: #ff3600;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 700;
     font-family: 'SFProText-Black';
     margin-top: 15px;
 
 }
 
-.nynm-description h2 span {
-    font-weight: 200;
-    font-family: 'SFProText-Regular';
-
-}
 
 
 .nynm-sale p:first-child {
-    font-size: 14px;
+    font-size: 10px;
     color: #ff3600;
-    text-transform: uppercase;
-    margin-top: 25px;
-    font-weight: 600;
-    margin-bottom: -10px;
-    margin-top: 0;
+    text-transform: uppercase; 
+    font-weight: 600; 
 }
 
 .nynm-sale p:nth-child(2),
 .nynm-sale p:nth-child(3) {
-    font-size: 70px;
+    font-size: 30px;
     text-transform: uppercase;
     color: #ff3600;
     font-weight: 600;
@@ -84,13 +74,10 @@
 
 
 }
-
-.nynm-sale p:nth-child(3) {
-    margin-top: -20px;
-}
-
+ 
 .last p {
-    color: #ff3600;
+    background-color: #ff3600;
+    color: #ffffff;
     border: #ff3600 2px solid;
     width: fit-content;
     padding: 4px 8px;
@@ -105,25 +92,22 @@
     font-weight: 900;
     font-size: 14px;
 }
+ 
 
-.nynm-btn {
-    background-color: #ff3600;
-    color: white;
-    text-align: center;
-    padding: 4px 15px;
-    margin-top: 20px;
-    border-radius: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 14px;
-}
-
-.nynm-products {
-    width: 70%;
+ 
+.nynm-description h2 span {
+    font-weight: 200;
+    font-family: 'SFProText-Regular';
 
 }
-
+.nynm-sale{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    align-items: 0;
+    column-gap: 5px;
+}
+ 
 
 .desktop {
     display: none;
@@ -136,10 +120,8 @@
 
 
 @media only screen and (min-width: 411px) {
-    .nynm-description h2 {
-        color: #ff3600;
-        text-transform: uppercase;
-        font-size: 30px;
+    .nynm-description h2 { 
+        font-size: 16px;
     }
 
 }
@@ -147,30 +129,24 @@
 
 @media only screen and (min-width: 500px) {
     .nynm-description h2 { 
-        font-size: 35px;
+        font-size: 20px;
     }
 
-    .nynm-sale p:first-child {
-        font-size: 16px;
-    }
+    
 
     .nynm-sale p:nth-child(2),
     .nynm-sale p:nth-child(3) {
-        font-size: 85px;
+        font-size: 40px;
     }
 
 
     .last p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .last p span {
         font-weight: 900;
-        font-size: 18px;
-    }
-
-    .nynm-btn {
-        font-size: 19px;
+        font-size: 16px;
     }
 
 }
@@ -179,34 +155,17 @@
 @media only screen and (min-width: 630px) {
 
     .nynm-description h2 { 
-        font-size: 45px;
+        font-size: 24px;
     }
 
     .nynm-sale p:nth-child(2),
     .nynm-sale p:nth-child(3) {
-        font-size: 100px;
-    }
-
-    .last p {
-        font-size: 18px;
-        margin-bottom: 19px;
-
-    }
-
-    .last p span {
-        font-weight: 900;
-        font-size: 22px;
-    }
-
-    .nynm-btn {
-        font-size: 26px;
+        font-size: 50px;
     }
 
     .nynm-sale p:first-child {
-        font-size: 22px;
+        font-size: 14px;
     }
-
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -225,15 +184,16 @@
         justify-content: center;
         align-items: center;
         column-gap: 5px;
-        margin-top: -10px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+
     }
 
     .last {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
-
+        justify-content: flex-start;
         column-gap: 5px;
         margin-top: -10px;
 
@@ -243,18 +203,11 @@
         width: 43%;
     }
 
-    .nynm-description {
-        position: absolute;
-        top: 50%;
-        left: 44%;
-        margin: auto;
-        align-items: center;
-        width: 48%;
-    }
 
+    
     .nynm-description h2 { 
         font-size: 24px;
-        text-align: center;
+        text-align: left;
         margin-top: 10px;
 
     }
@@ -285,88 +238,120 @@
         font-weight: 900;
         font-size: 16px;
     }
+
+
+
+
+
+
+
+
+    .nynm-description {
+        position: absolute;
+        top: 50%;
+        left: 26%;
+        margin: auto;
+        align-items: flex-start;
+        width: 45%;
+    }
 }
 
 
-@media only screen and (min-width: 994px) {
-
-    .nynm-description h2 { 
-        font-size: 31px;
+@media only screen and (min-width: 992px) {
+    .nynm{
+        width: 550px;
     }
-    .last {
-        margin-top: 0;
+    .nynm-description h2 {
+        font-size: 18px;
     }
+   
     .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
-        font-size: 60px;
+        font-size: 33px;
+    }
+    .last p {
+        margin: 0;
+        font-size: 12px;
+    }
+    .last p span {
+        font-weight: 900;
+        font-size: 14px;
+    }
+    .nynm-sale p:first-child {
+        font-size: 12px;
     }
 
-    .last { 
-        column-gap: 15px;
-    }
+
+
+
+
+
+
+
+
+
 
 }
 
 @media only screen and (min-width: 1200px) {
-    .nynm-description h2 {
-       
-        font-size: 38px;
+    .nynm{
+        width: 600px;
     }
-    .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
-        font-size: 75px;
-    }
-    .nynm-sale p:first-child {
-        font-size: 18px;
-    }
-    .last p {
-        margin: 0;
-        font-size: 16px;
-    }
+   
 
-    .last p span {
-        font-weight: 900;
+    .nynm-description h2 {
         font-size: 20px;
     }
-    .nynm-btn { 
-        font-size: 26px;
-        padding: 6px 15px;
+ 
+    .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
+        font-size: 40px;
     }
 
 }
 
 
 @media only screen and (min-width: 1400px) {
-
+    .nynm{
+        width: 700px;
+    }
     .nynm-description h2 {
-        font-size: 45px;
+        font-size: 24px;
     }
     .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
-        font-size: 85px;
+        font-size: 45px;
     } 
-
+    .nynm-sale { 
+        margin-top: 0px;
+    }
 }
 
 
 @media only screen and (min-width: 1600px) {
 
     .nynm-description h2 {
-        font-size: 55px;
+        font-size: 26px;
     }
     .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
-        font-size: 70px;
+        font-size: 45px;
     } 
-
+}
+@media only screen and (min-width: 2000px) {
+    .nynm{
+        width: 800px;
+    }
+    .nynm-description h2 {
+        font-size: 30px;
+    }
+    .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
+        font-size: 60px;
+    } 
+    .last p {
+        margin: 0;
+        font-size: 16px;
+    }
+    .last p span {
+        font-weight: 900;
+        font-size: 20px;
+    }
 }
  
 
-@media only screen and (min-width: 2200px) {
-
-    .nynm-description h2 {
-        font-size: 70px;
-    }
-    .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
-        font-size: 100px;
-    } 
-    .nynm-sale p:first-child {
-        font-size: 30px;
-    }
-}
