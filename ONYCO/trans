@@ -54,3 +54,481 @@ HTML;
                 <p class="last"><?php echo $LANG['nynm_last'] ?></p>
             </div>
         </div>
+
+
+
+
+<!-- EN -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>professional care</b> for your feet
+HTML;
+$LANG['up_to'] = "up to";
+$LANG['off'] = "OFF";
+$LANG['with_code'] = "with code: ";
+$LANG['nynm_last'] = <<<HTML
+<b>start the new year </b> with fresh, fungus-free feet! 
+HTML;
+
+<!-- IT -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Cura professionale</b> per i tuoi piedi
+HTML;
+$LANG['up_to'] = "fino a";
+$LANG['off'] = "Sconto";
+$LANG['with_code'] = "il codice ";
+$LANG['nynm_last'] = <<<HTML
+<b>Inizia il nuovo anno con</b> piedi freschi e senza funghi!
+HTML;
+
+
+<!-- SI -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Profesionalna nega </b>vaših stopal
+HTML;
+$LANG['up_to'] = "do";
+$LANG['off'] = "POPUST";
+$LANG['with_code'] = "s kodo: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Začnite novo leto</b> s svežimi stopali brez glivic!
+HTML;
+
+
+<!-- HR -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Profesionalna njega </b>Vaših stopala
+HTML;
+$LANG['up_to'] = "do";
+$LANG['off'] = "POPUST";
+$LANG['with_code'] = "s kodom: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Započnite Novu godinu </b>sa svježim stopalima bez gljivica!
+HTML;
+
+
+<!-- CZ -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Profesionální péče</b> o vaše nohy
+HTML;
+$LANG['up_to'] = "až";
+$LANG['off'] = "SLEVA";
+$LANG['with_code'] = "s kódem: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Začněte nový rok </b>se svěžíma nohama bez plísní!
+HTML;
+
+
+<!-- PT -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Cuidados profissionais </b>para os teus pés
+HTML;
+$LANG['up_to'] = "até";
+$LANG['off'] = "DESCONTO";
+$LANG['with_code'] = "com código: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Começa o Ano Novo com</b> pés frescos e livres de fungos!
+HTML;
+
+
+<!-- ES -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Cuidado profesional </b> para tus pies
+HTML;
+$LANG['up_to'] = "hasta";
+$LANG['off'] = "DESCUENTO";
+$LANG['with_code'] = "con código: ";
+$LANG['nynm_last'] = <<<HTML
+<b>¡Empieza el nuevo año con </b>unos pies frescos y libres de hongos! 
+HTML;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- HU -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Professzionális</b> lábápolás
+HTML;
+$LANG['up_to'] = "akár";
+$LANG['off'] = "KEDVEZMÉNY";
+$LANG['with_code'] = "kóddal: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Kezdd az új évet friss,</b> gombamentes lábakkal! 
+HTML;
+
+
+<!-- SK -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Profesionálna starostlivosť</b> o vaše nohy
+HTML;
+$LANG['up_to'] = "až do";
+$LANG['off'] = "ZĽAVA";
+$LANG['with_code'] = "s kódom: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Začnite nový rok </b>so sviežimi nohami bez plesní!
+HTML;
+
+
+<!-- DE -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Professionelle Pflege </b>für Ihre Füße
+HTML;
+$LANG['up_to'] = "bis zu";
+$LANG['off'] = "RABATT";
+$LANG['with_code'] = "mit Code: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Beginnen Sie das neue </b>Jahr mit frischen, pilzfreien Füßen!
+HTML;
+
+
+
+
+<!-- PL -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Profesjonalna</b> pielęgnacja stóp
+HTML;
+$LANG['up_to'] = "do";
+$LANG['off'] = "ZNIŻKI";
+$LANG['with_code'] = "z kodem: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Rozpocznij Nowy Rok ze świeżymi,</b> wolnymi od grzybicy stopami!
+HTML;
+
+
+
+<!-- FR -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Un soin professionnel</b> pour vos pieds
+HTML;
+$LANG['up_to'] = "jusqu'à";
+$LANG['off'] = "RÉDUCTION";
+$LANG['with_code'] = "avec le code: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Commencez la nouvelle année </b>avec des pieds frais et sans mycose !
+HTML;
+
+
+<!-- LT -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Profesionali</b> pėdų priežiūra
+HTML;
+$LANG['up_to'] = "iki";
+$LANG['off'] = "NUOLAIDA";
+$LANG['with_code'] = "su kodu: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Naujuosius metus pradėkite </b>su šviežiomis, grybelio neturinčiomis pėdomis!
+HTML;
+
+
+<!-- LV -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Profesionāla</b> pēdu kopšana
+HTML;
+$LANG['up_to'] = "līdz";
+$LANG['off'] = "ATLAIDE";
+$LANG['with_code'] = "ar kodu: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Sāciet Jauno gadu </b>ar svaigām, no sēnītes brīvām pēdām!
+HTML;
+
+
+
+<!-- EE -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Professionaalne hooldus</b> teie jalgadele
+HTML;
+$LANG['up_to'] = "kuni";
+$LANG['off'] = "SOODUSTUS";
+$LANG['with_code'] = "koodiga: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Alusta uut aastat värskete,</b> seenevabade jalgadega!
+HTML;
+
+
+<!-- RO -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Îngrijire profesională </b>pentru picioarele tale
+HTML;
+$LANG['up_to'] = "până la";
+$LANG['off'] = "REDUCERE";
+$LANG['with_code'] = "cu codul: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Începeți Anul Nou </b>cu picioare proaspete, fără ciuperci!
+HTML;
+
+
+<!-- NL -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b> Professionele verzorging</b> van uw voeten
+HTML;
+$LANG['up_to'] = "tot";
+$LANG['off'] = "KORTING";
+$LANG['with_code'] = "met code: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Begin het nieuwe jaar met frisse, </b>schimmelvrije voeten!
+HTML;
+
+
+<!-- SE -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Professionell vård</b> för dina fötter
+HTML;
+$LANG['up_to'] = "upp till";
+$LANG['off'] = "RABATT";
+$LANG['with_code'] = "med kod: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Börja det nya året med </b> fräscha, svampfria fötter! 
+HTML;
+
+
+<!-- GR -->
+//NYNM
+$LANG['professional_care'] = <<<HTML
+<b>Επαγγελματική φροντίδα</b> για τα πόδια σας
+HTML;
+$LANG['up_to'] = "έως";
+$LANG['off'] = "ΕΚΠΤΩΣΗ";
+$LANG['with_code'] = "με τον κωδικό: ";
+$LANG['nynm_last'] = <<<HTML
+<b>Ξεκινήστε τη νέα χρονιά</b> με φρέσκα πόδια χωρίς μύκητες!
+HTML;
+
+
+
+
+
+
+
+
+
+
+.nynm {
+     position: relative;
+ }
+
+ .nynm-description {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 100%;
+ }
+
+
+
+
+ .with-code div p {
+     color: #009ded;
+
+ }
+
+ .percent {
+     font-size: 38px;
+     margin-left: -15px;
+ }
+
+ .up-to {
+     margin-top: -17px;
+     margin-right: -8px;
+     font-size: 10px;
+ }
+
+ .with-code {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-left: 15px;
+     margin-top: 5px;
+
+ }
+
+ .with-code p {
+     color: #009ded;
+ }
+
+ .with-code .with-code-span {
+     background-color: #009ded;
+     color: white;
+     width: fit-content;
+     padding: 4px 6px;
+     text-transform: uppercase;
+     font-size: 10px;
+     height: fit-content;
+     margin-left: 5px;
+ }
+
+ .nynm-products {
+     width: 45%;
+     margin: auto;
+     display: block;
+     margin-left: 15%;
+ }
+
+ .last {
+     background-color: #009ded;
+     color: white;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 12px;
+     margin-top: -2px;
+     z-index: 2;
+     position: relative;
+     padding: 5px 0;
+
+ }
+
+
+
+
+
+ @media only screen and (min-width: 500px) {
+
+
+     .percent {
+         font-size: 60px;
+     }
+
+     .up-to {
+         margin-top: -30px;
+         margin-right: -19px;
+         font-size: 14px;
+     }
+
+     .with-code .with-code-span {
+         font-size: 18px;
+     }
+
+     .nynm-products {
+         width: 50%;
+     }
+
+     .last {
+         font-size: 17px;
+         margin-top: -3px;
+
+     }
+
+     .with-code {
+         margin-top: 10px;
+     }
+ }
+
+
+ @media only screen and (min-width: 768px) {
+
+     .nynm-description {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         height: 100%;
+     }
+
+     .nynm-products {
+         width: 50%;
+     }
+
+     .percent {
+         font-size: 35px;
+     }
+
+     .up-to {
+         margin-top: -18px;
+         margin-right: -4px;
+         font-size: 8px;
+     }
+
+
+     .with-code-span {
+         font-size: 15px;
+     }
+
+     .with-code .with-code-span {
+         font-size: 14px;
+     }
+
+     .last {
+         font-size: 14px;
+     }
+
+
+     .nynm {
+         margin-bottom: 30px;
+     }
+ }
+
+
+ @media only screen and (min-width: 994px) {
+     .last {
+         font-size: 16px;
+     }
+
+     .up-to {
+         margin-top: -16px;
+         margin-right: -5px;
+         font-size: 9px;
+     }
+
+ }
+
+ @media only screen and (min-width: 1200px) {
+
+     .percent {
+         font-size: 50px;
+     }
+
+     .with-code-span {
+         font-size: 18px;
+     }
+
+     .last {
+         font-size: 18px;
+     }
+
+     .nynm-products {
+         width: 45%;
+     }
+
+     .up-to {
+         margin-top: -28px;
+         margin-right: -13px;
+         font-size: 14px;
+     }
+
+
+ }
+
+ @media only screen and (min-width: 1400px) {
+     .nynm-legs {
+
+         margin-top: 110px;
+     }
+
+ }
+
+</style>

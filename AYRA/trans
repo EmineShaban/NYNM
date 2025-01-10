@@ -1,25 +1,248 @@
-  <section class="nynm">
-        <img class="mobile" src="./Ayra-NYNS-Index-Banner-m-image.webp" alt="">
-        <img class="desktop" src="./Ayra-NYNS-Index-Banner-d-image.webp" alt="">
 
-        <div class="nynm-description">
-            <div class="new-year">
-                <h2><span class="purpule">new</span> year <br> new <span class="purpule">skin</span></h2>
-                <div>
-                    <p class="up-to">up <br/> to</p>
-                    <p  class="purpule percent">-60%</p>
-                     
-                </div>
+<section class="nynm">
+    <img class="mobile" src="/cdn/ayra/inc/assets-general/nynm/Ayra-NYNS-Index-Banner-m-image.webp" alt="">
+    <img class="desktop" src="/cdn/ayra/inc/assets-general/nynm/Ayra-NYNS-Index-Banner-D-image.webp" alt="">
+
+    <div class="nynm-description">
+        <div class="new-year">
+            <h2><?php echo $LANG['new_year'] ?></h2>
+            <div>
+                <p class="up-to"><?php echo $LANG['up_to'] ?></p>
+                <p  class="purpule percent">-60%</p>
             </div>
-            <div class="with-code">
-                <p class="with-code-span">
-                   with code new10 
-                </p>
-                <p>
-                    turn back time, naturally
-                </p>
-            </div>
-            <a class="btn" href="">shop now</a>
-            <p class="last">The clock is ticking... backwards</p>
         </div>
-    </section>
+        <div class="with-code">
+            <p class="with-code-span">
+                <?php echo $LANG['with_code'] ?> new10 
+            </p>
+            <p>
+                <?php echo $LANG['turn_back'] ?>
+            </p>
+        </div>
+        <a class="btn" href="<?php echo $LANG['link_to_order_page'] ?>"><?php echo $LANG['order_now'] ?></a>
+        <p class="last"><?php echo $LANG['clock_is_ticking'] ?></p>
+    </div>
+</section>
+
+
+
+    //NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">new</span> year <br> new <span class="purpule">skin</span>
+HTML;
+$LANG['up_to'] = "up <br/> to";
+$LANG['with_code'] = "with code ";
+$LANG['turn_back'] = "turn back time, naturally";
+$LANG['clock_is_ticking'] = "The clock is ticking... backwards";
+
+<section class="nynm">
+    <img class="nynm-img mobile" src="/cdn/ayra/inc/assets-general/nynm/Ayra-NYNS-Shop-Banner-m-image.webp" alt="">
+    <img class="nynm-img desktop" src="/cdn/ayra/inc/assets-general/nynm/Ayra-NYNS-Shop-Banner-D-image.webp" alt="">
+
+    <div class="nynm-description">
+        <div class="new-year">
+            <h2><?php echo $LANG['new_year'] ?></h2>
+            <div>
+                <p class="up-to"><?php echo $LANG['up_to'] ?></p>
+                <p class="purpule percent">-60%</p>
+            </div>
+        </div>
+        <p class="new10 mobile"><?php echo $LANG['with_code'] ?> new10</p>
+        <p class="turn-back mobile"><?php echo $LANG['turn_back'] ?>
+        </p>
+        <div class="with-code desktop">
+            <p class="with-code-span">
+                <?php echo $LANG['with_code'] ?> new10
+            </p>
+            <p>
+                <?php echo $LANG['turn_back'] ?>
+            </p>
+        </div> 
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- EN -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">new</span> year <br> new <span class="purpule">skin</span>
+HTML;
+$LANG['up_to'] = "up <br/> to";
+$LANG['with_code'] = "with code ";
+$LANG['turn_back'] = "turn back time, naturally";
+$LANG['clock_is_ticking'] = "The clock is ticking... backwards";
+
+
+<!-- FR -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">nouvelle</span> année <br> nouvelle <span class="purpule">peau</span>
+HTML;
+$LANG['up_to'] = "jusqu'à";
+$LANG['with_code'] = "avec le code ";
+$LANG['turn_back'] = "remontez le temps, naturellement";
+$LANG['clock_is_ticking'] = "L'horloge tourne... à rebours";
+
+
+
+
+<!-- CZ -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Nový</span> rok <br> nová <span class="purpule">pleť</span>
+HTML;
+$LANG['up_to'] = "až";
+$LANG['with_code'] = "sleva s kódem ";
+$LANG['turn_back'] = "Vraťte čas zpět, přirozeně";
+$LANG['clock_is_ticking'] = " Hodiny tikají... směrem dozadu";
+
+<!-- DE -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Neues</span> Jahr <br> neue <span class="purpule">Haut</span>
+HTML;
+$LANG['up_to'] = "bis <br/>zu";
+$LANG['with_code'] = "mit Code ";
+$LANG['turn_back'] = "Drehen Sie die Zeit zurück, natürlich";
+$LANG['clock_is_ticking'] = "Die Uhr tickt... rückwärts";
+
+
+<!-- EE -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Uus</span> aasta <br> uus <span class="purpule">nahk</span>
+HTML;
+$LANG['up_to'] = "kuni";
+$LANG['with_code'] = "koodiga ";
+$LANG['turn_back'] = "Turn Back Time, Naturally";
+$LANG['clock_is_ticking'] = "Tagasi....";
+
+
+<!-- ES -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Año</span> Nuevo <br> Piel <span class="purpule">Nueva</span>
+HTML;
+$LANG['up_to'] = "un";
+$LANG['with_code'] = "el código ";
+$LANG['turn_back'] = "Vuelve el tiempo atrás, naturalmente";
+$LANG['clock_is_ticking'] = "El reloj corre... hacia atrás";
+
+
+<!-- HR -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Nova</span> godina <br> nova <span class="purpule">koža</span>
+HTML;
+$LANG['up_to'] = "do";
+$LANG['with_code'] = "uz kod ";
+$LANG['turn_back'] = "Vratite vrijeme, naravno";
+$LANG['clock_is_ticking'] = "Sat otkucava... unatrag";
+
+
+<!-- HU -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Új</span> év <br> új <span class="purpule">arcbőr</span>
+HTML;
+$LANG['up_to'] = "akár";
+$LANG['with_code'] = "a kóddal ";
+$LANG['turn_back'] = "Visszafordítani az időt, természetesen";
+$LANG['clock_is_ticking'] = "Az óra ketyeg... visszafelé";
+
+
+<!-- IT -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Nuovo</span> anno <br> nuova <span class="purpule">pelle</span>
+HTML;
+$LANG['up_to'] = "al";
+$LANG['with_code'] = "il codice ";
+$LANG['turn_back'] = " Torna indietro nel tempo, naturalmente";
+$LANG['clock_is_ticking'] = " Il tempo scorre... all'indietro";
+
+
+<!-- NL -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Nieuw</span> jaar <br> nieuwe <span class="purpule">huid</span>
+HTML;
+$LANG['up_to'] = "tot";
+$LANG['with_code'] = "met code ";
+$LANG['turn_back'] = "Draai de tijd terug, op natuurlijke wijze";
+$LANG['clock_is_ticking'] = "De klok tikt... achteruit";
+
+
+<!-- LT -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Nauji</span> metai <br> nauja <span class="purpule">oda</span>
+HTML;
+$LANG['up_to'] = "iki";
+$LANG['with_code'] = "su kodu ";
+$LANG['turn_back'] = "Natūraliai atsukite laiką atgal";
+$LANG['clock_is_ticking'] = "The clock is ticking... backwards";
+
+
+<!-- LV -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Jauns</span> gads <br> jauna <span class="purpule">āda</span>
+HTML;
+$LANG['up_to'] = "pat ";
+$LANG['with_code'] = "ar kodu ";
+$LANG['turn_back'] = " Atgrieziet laiku atpakaļ, dabiski";
+$LANG['clock_is_ticking'] = " Laiks rit... atpakaļ...";
+
+
+<!-- PL -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Nowy</span> rok <br> nowa <span class="purpule">skóra</span>
+HTML;
+$LANG['up_to'] = "do ";
+$LANG['with_code'] = "z kodem ";
+$LANG['turn_back'] = " Cofnij czas, naturalnie";
+$LANG['clock_is_ticking'] = " Cofnij czas, naturalnie";
+
+
+<!-- PT -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Ano </span> Novo <br> Pele <span class="purpule">Nova</span>
+HTML;
+$LANG['up_to'] = "até";
+$LANG['with_code'] = " com o código ";
+$LANG['turn_back'] = " Volta Atrás no Tempo, Naturalmente";
+$LANG['clock_is_ticking'] = " O relógio está a andar... para trás!";
+
+
+<!-- SI -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Novo</span> leto <br> nova <span class="purpule"> koža
+</span>
+HTML;
+$LANG['up_to'] = "do";
+$LANG['with_code'] = "s kodo ";
+$LANG['turn_back'] = " Zavrtite čas nazaj, naravno";
+$LANG['clock_is_ticking'] = " Ura teče ... nazaj";
+
+
+<!-- SK -->
+//NYNM
+$LANG['new_year'] = <<<HTML
+<span class="purpule">Nový</span> rok <br> nová <span class="purpule">pleť</span>
+HTML;
+$LANG['up_to'] = "až";
+$LANG['with_code'] = "s kódom ";
+$LANG['turn_back'] = "Vráťte čas späť, prirodzene";
+$LANG['clock_is_ticking'] = "Hodiny tikajú... smerom dozadu";
+
+
