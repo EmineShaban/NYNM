@@ -1,0 +1,382 @@
+@font-face {
+    font-family: 'SFProText-Black';
+    src: url('./fonts/GTWalsheimPro-Black.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'SFProText-Bold';
+    src: url('./fonts/GTWalsheimPro-Bold.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'SFProText-Light';
+    src: url('./fonts/GTWalsheimPro-Light.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'SFProText-Thin';
+    src: url('./fonts/GTWalsheimPro-Thin.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'SFProText-Regular';
+    src: url('./fonts/GTWalsheimPro-Regular.woff') format('woff');
+
+}
+
+.nynm {
+    position: relative;
+    margin-top: 65px;
+}
+
+.nynm-description {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 100%;
+    width: 90%;
+    font-family: 'SFProText-Regular';
+}
+
+.nynm-description h2 {
+    color: #ff3600;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'SFProText-Black';
+    margin-top: 15px;
+
+}
+
+.nynm-description h2 span {
+    font-weight: 200;
+    font-family: 'SFProText-Regular';
+
+}
+
+
+.nynm-sale p:first-child {
+    font-size: 14px;
+    color: #ff3600;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-weight: 600;
+    margin-bottom: -10px;
+    margin-top: 0;
+}
+
+.nynm-sale p:nth-child(2),
+.nynm-sale p:nth-child(3) {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #ff3600;
+    font-weight: 600;
+    font-family: 'SFProText-Bold';
+
+
+}
+
+.nynm-sale p:nth-child(3) {
+    margin-top: -20px;
+}
+
+.last p {
+    color: #ff3600;
+    border: #ff3600 2px solid;
+    width: fit-content;
+    padding: 4px 8px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.last p span {
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.nynm-btn {
+    background-color: #ff3600;
+    color: white;
+    text-align: center;
+    padding: 4px 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.nynm-products {
+    width: 70%;
+
+}
+
+
+.desktop {
+    display: none;
+}
+
+.mobile {
+    display: block;
+}
+
+
+
+@media only screen and (min-width: 411px) {
+    .nynm-description h2 {
+        color: #ff3600;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+}
+
+
+@media only screen and (min-width: 500px) {
+    .nynm-description h2 { 
+        font-size: 35px;
+    }
+
+    .nynm-sale p:first-child {
+        font-size: 16px;
+    }
+
+    .nynm-sale p:nth-child(2),
+    .nynm-sale p:nth-child(3) {
+        font-size: 85px;
+    }
+
+
+    .last p {
+        font-size: 14px;
+    }
+
+    .last p span {
+        font-weight: 900;
+        font-size: 18px;
+    }
+
+    .nynm-btn {
+        font-size: 19px;
+    }
+
+}
+
+
+@media only screen and (min-width: 630px) {
+
+    .nynm-description h2 { 
+        font-size: 45px;
+    }
+
+    .nynm-sale p:nth-child(2),
+    .nynm-sale p:nth-child(3) {
+        font-size: 100px;
+    }
+
+    .last p {
+        font-size: 18px;
+        margin-bottom: 19px;
+
+    }
+
+    .last p span {
+        font-weight: 900;
+        font-size: 22px;
+    }
+
+    .nynm-btn {
+        font-size: 26px;
+    }
+
+    .nynm-sale p:first-child {
+        font-size: 22px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .nynm-sale {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5px;
+        margin-top: -10px;
+    }
+
+    .last {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        column-gap: 5px;
+        margin-top: -10px;
+
+    }
+
+    .nynm-products {
+        width: 43%;
+    }
+
+    .nynm-description {
+        position: absolute;
+        top: 50%;
+        left: 44%;
+        margin: auto;
+        align-items: center;
+        width: 50%;
+    }
+
+    .nynm-description h2 { 
+        font-size: 24px;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+    .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
+        font-size: 50px;
+    }
+    .nynm-sale p{
+        margin: 0;
+    }
+    .last p{
+        margin: 0;
+        font-size: 14px;
+
+    }
+    .nynm-btn{
+        margin: 0;
+        font-size: 20px;
+
+    }
+    .nynm-sale p:first-child {
+        font-size: 16px;
+    }
+
+    .nynm-sale p:nth-child(3) {
+        margin-top: 0;
+    }
+    .last p span {
+        font-weight: 900;
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (min-width: 994px) {
+
+    .nynm-description h2 { 
+        font-size: 31px;
+    }
+    .last {
+        margin-top: 0;
+    }
+    .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
+        font-size: 60px;
+    }
+
+    .last { 
+        column-gap: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .nynm-description h2 {
+       
+        font-size: 38px;
+    }
+    .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
+        font-size: 75px;
+    }
+    .nynm-sale p:first-child {
+        font-size: 18px;
+    }
+    .last p {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .last p span {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .nynm-btn { 
+        font-size: 26px;
+        padding: 6px 15px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1400px) {
+
+    .nynm-description h2 {
+        font-size: 45px;
+    }
+    .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
+        font-size: 85px;
+    } 
+
+}
+
+
+@media only screen and (min-width: 1600px) {
+
+    .nynm-description h2 {
+        font-size: 55px;
+    }
+    .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
+        font-size: 95px;
+    } 
+
+}
+
+@media only screen and (min-width: 1800px) {
+
+    .nynm-description h2 {
+        font-size: 65px;
+    }
+    .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
+        font-size: 105px;
+    } 
+
+}
+
+@media only screen and (min-width: 2200px) {
+
+    .nynm-description h2 {
+        font-size: 75px;
+    }
+    .nynm-sale p:nth-child(2), .nynm-sale p:nth-child(3) {
+        font-size: 125px;
+    } 
+    .nynm-sale p:first-child {
+        font-size: 30px;
+    }
+}
